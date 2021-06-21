@@ -65,7 +65,7 @@ function draw() {
 
 
 function coinR(){
-  if(frameCount % 70 == 0){
+  if(frameCount % 190 == 0){
     coin=createSprite(300,0,20,20);
     coin.addImage("c1",coin_img);
     coin.scale=0.3;
@@ -75,7 +75,7 @@ function coinR(){
 }
 
 function bombR(){
-  if(frameCount % 100 == 0){
+  if(frameCount % 160 == 0){
     bomb=createSprite(250,0,10,10);
     bomb.addImage("b1",bomb_img);
     bomb.scale=0.1;
@@ -95,7 +95,7 @@ function energyDrinkR(){
 }
 
 function powerBoster(){
-  if(frameCount % 150==0){
+  if(frameCount % 250==0){
     power=createSprite(170,0,10,10);
     power.addImage("po1",power_img);
     power.scale=0.1
