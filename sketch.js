@@ -68,7 +68,7 @@ function coinR(){
   if(frameCount % 190 == 0){
     coin=createSprite(300,0,20,20);
     coin.addImage("c1",coin_img);
-    coin.scale=0.3;
+    coin.scale=0.2;
     coin.velocityY=2;
     coin.x=Math.round(random(75,520));
    }
@@ -78,7 +78,7 @@ function bombR(){
   if(frameCount % 160 == 0){
     bomb=createSprite(250,0,10,10);
     bomb.addImage("b1",bomb_img);
-    bomb.scale=0.1;
+    bomb.scale=0.09;
     bomb.velocityY=3;
     bomb.x=Math.round(random(75,520));
    }
